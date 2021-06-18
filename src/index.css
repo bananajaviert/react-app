@@ -75,6 +75,11 @@ body {
   margin-bottom: 40px;
 }
 
+.add-form *:focus:not(input[type='submit']) {
+  border: 2px solid green;
+  outline: none;
+}
+
 .form-control {
   margin: 20px 0;
 }
